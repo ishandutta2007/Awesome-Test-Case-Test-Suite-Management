@@ -1,138 +1,238 @@
-# Awesome-Test-Case-Test-Suite-Management
+<div align="center">
 
-# Awesome Test Case & Test Suite Management
+<img src="./assets/banner.svg" alt="Awesome Test Case and Test Suite Management Banner" width="100%" />
 
-> A curated list of top Test Case and Test Suite Management platforms — both SaaS/Hosted commercial solutions and open-source alternatives for organizing test cases, planning test runs, and tracking execution results across teams.
-> 🌟 Star this repo if you find it useful! 🌟
+# ⚡ Awesome Test Case & Test Suite Management 🚀
+
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jc4xtF58Ve)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Test-Case-Test-Suite-Management/pulls)
+[![GitHub followers](https://img.shields.io/github/followers/ishandutta2007?label=Follow)](https://github.com/ishandutta2007)
+
+<p align="center">
+  <b>A comprehensive, curated collection of top SaaS test management tools and open-source test case management software (TCMS) for QA engineers, SDETs, and engineering leaders to organize test plans, orchestrate automated test runs, and track full lifecycle traceability.</b>
+</p>
+
+⭐ **Star this repository if you find it valuable for your QA workflows!** ⭐
+
+</div>
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [TestRail](#testrail)
-  - [Qase](#qase)
-  - [BrowserStack Test Management](#browserstack-test-management)
-  - [Zephyr Enterprise / Scale](#zephyr-enterprise--scale)
-  - [Xray](#xray)
-  - [PractiTest](#practitest)
-  - [Testmo](#testmo)
-  - [SpiraTest](#spiratest)
-- [Open-Source Software](#-open-source-software)
-  - [Kiwi TCMS](#kiwi-tcms)
-  - [TestLink](#testlink)
-  - [TestPlanIt](#testplanit)
-  - [Squash TM](#squash-tm)
-  - [QaraTMS](#qaratms)
-  - [QuAck](#quack)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+  - [SaaS Platforms Comparison Table](#saas-platforms-comparison-table)
+  - [Detailed SaaS Profiles](#detailed-saas-profiles)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [Open-Source Solutions Comparison Table](#open-source-solutions-comparison-table)
+  - [Detailed Open-Source Profiles](#detailed-open-source-profiles)
+- [📊 Feature Matrix at a Glance](#-feature-matrix-at-a-glance)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global **test management software market** is currently estimated at **$1.3B – $1.7B** (expanding at an ~11–12% CAGR within the broader $55B+ software testing and QA ecosystem). The sector is **moderately fragmented** rather than winner-take-all: entrenched legacy players and private equity roll-ups (such as Idera and SmartBear) share substantial enterprise market share with cloud-first challengers (BrowserStack, Qase, Testmo) and native Jira marketplace plugins, while open-source solutions maintain a resilient footprint among privacy-conscious and budget-constrained engineering teams.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Test Case and Test Suite Management platforms. These are not open-source but are included as reference points for feature comparison.
+Modern commercial, cloud-hosted Test Case & Test Suite Management platforms provide deep issue-tracker integrations, automation ingestion pipelines, and AI-accelerated test lifecycle management.
 
-### TestRail
-**Type:** Independent test case and execution management
-TestRail is a long-standing standalone test management platform focused on organizing test cases, creating test plans, recording execution results, and generating reports. It is best suited for teams wanting a dedicated test management system separate from their issue tracker, with structured execution records and result aggregation [citation:5]. Pricing typically starts around $37/user/month for paid plans, with a free plan available for very small teams [citation:14]. **Trade-off:** Requires integration configuration to connect with development workflows, and the interface is considered dated by some teams compared to newer platforms.
+### SaaS Platforms Comparison Table
 
-### Qase
-**Type:** Modern test management with automation integration
-Qase is a modern test management platform designed for engineering teams, offering test case management, test runs, defect management, and automation result ingestion via API [citation:5][citation:7]. It supports requirements traceability across Jira, GitHub, GitLab, Notion, and Confluence, with dashboards and a query language for filtering test artifacts [citation:7]. The Free plan supports up to 4 full seats with 2 active test runs and 5k API-submitted results per month; Teams starts with 5+ seats and adds SSO, 2 years of data retention, and 2,000 AI credits/month [citation:7][citation:15]. **Best for:** Teams wanting a modern, API-friendly test management platform with a generous free tier and automation-first design.
+> *Sorted in descending order by estimated company valuation / scale.*
 
-### BrowserStack Test Management
-**Type:** AI-powered test management within BrowserStack ecosystem
-BrowserStack Test Management provides test case creation with rich text and reusable templates, folder hierarchies for organizing large repositories, test plan management linked to releases, and test run execution across real devices and browsers [citation:2]. Key differentiators include AI agents for test creation, maintenance, and failure analysis, plus deep integration with BrowserStack's device cloud for immediate cross-browser execution [citation:2]. Pricing starts at $19/user/month, with a free plan for up to 5 users [citation:14]. **Best for:** Teams already using BrowserStack for cross-browser testing wanting test management tightly coupled with real-device execution.
+| Product | Company Valuation / Revenue Scale | Starting Tier Price | Free Tier / Free Trial Limits | Key Specialization |
+| :--- | :--- | :--- | :--- | :--- |
+| **[BrowserStack Test Management](https://www.browserstack.com/test-management)** | **$4.0B Valuation** (~$230M ARR) | **$19/user/month** (Pro plan, billed annually) | **Free Forever Plan**: Up to 5 users, unlimited test cases, unlimited projects, 10 GB storage, 30-day run history | Real-device cloud execution & AI-assisted QA workflows |
+| **[TestRail](https://www.testrail.com/)** | **~$3.0B Parent Valuation** (Idera; ~$10M–$15M product ARR) | **$22/user/month** (Essentials plan for up to 5 users, billed annually) | **30-Day Free Trial**: Full access to Professional or Enterprise features; no permanent free tier | Enterprise standalone test repository & compliance audits |
+| **[Xray](https://www.getxray.app/)** | **~$3.0B Parent Valuation** (Idera / Xblend; ~$20M+ ARR) | **$10/month flat rate** (Cloud for up to 10 Jira users) | **30-Day Free Trial**: Full Jira Cloud marketplace evaluation; no permanent free tier | Native Jira requirement traceability & release audits |
+| **[Zephyr Scale](https://smartbear.com/test-management/zephyr-scale/)** | **~$2.0B Valuation** (SmartBear; >$500M total company revenue) | **$10/month flat rate** (Standard Cloud for up to 10 Jira users) | **30-Day Free Trial**: Available via Atlassian Marketplace; no permanent free tier | Deep Jira-native hierarchical test libraries & 70+ reports |
+| **[SpiraTest](https://www.inflectra.com/spiratest/)** | **~$13M Revenue Run-rate** (Inflectra, bootstrapped) | **$43.66/user/month** (Concurrent licensing; $130.99/mo for 3 users min) | **30-Day Free Trial**: Full access to all SpiraTest ALM capabilities; no permanent free tier | Concurrent user licensing, integrated ALM & requirements |
+| **[Qase](https://qase.io/)** | **~$7.7M Funding** (~$5M ARR) | **$20/user/month** (Teams plan, billed annually) | **Free Forever Plan**: Up to 4 full users, 2 active test runs, 5,000 API-submitted results/month | Modern REST API-first TestOps & seamless CI/CD ingestion |
+| **[PractiTest](https://www.practitest.com/)** | **Bootstrapped** (~$2M–$5M estimated revenue) | **$49/user/month** (Team plan, billed annually, min 5 users) | **14-Day Free Trial**: Complete access across modules and analytics; no permanent free tier | End-to-end QA process visibility & cross-project views |
+| **[Testmo](https://www.testmo.com/)** | **Bootstrapped / Indie** (Profitable scale-up) | **$99/month flat rate** (Team plan, covers up to 10 users) | **21-Day Free Trial**: Full platform access without credit card; no permanent free tier | Ultra-fast unified UI for manual, exploratory, and automation |
 
-### Zephyr Enterprise / Scale
-**Type:** Jira-native test management
-Zephyr (SmartBear) offers two primary products: Zephyr Scale for large-scale test management inside Jira with hierarchical test libraries, parameters, shared steps, versioning, and 70+ cross-project reports; and Zephyr Squad for lighter Jira-integrated test management with automation result syncing from Cucumber, Jenkins, Selenium, and JUnit . Both run inside Jira, making them natural choices for teams already standardized on Atlassian. **Trade-off:** Heavy Jira plugins can slow down projects and require expensive Atlassian licenses for every tester [citation:13].
+---
 
-### Xray
-**Type:** Jira-native test management with strong traceability
-Xray is a Jira-native test management solution focused on requirements traceability and test coverage management. It models relationships between requirements, tests, executions, and defects, making it suited for teams needing release audits or complex test relationship tracking [citation:5]. Configuration space and learning curve should be evaluated against project complexity. **Best for:** Jira-centric organizations where requirement coverage and release auditability are primary concerns.
+### Detailed SaaS Profiles
 
-### PractiTest
-**Type:** Test management with process visibility
-PractiTest provides test management with test object association, execution management, dashboards, and exploratory testing records. It is positioned for teams needing cross-project visibility into test status and a more complete process and analysis capability set [citation:5]. **Trade-off:** Teams must evaluate whether they will actually use its fuller process and analysis features, as unused capability adds cost without benefit.
+#### 🔹 [BrowserStack Test Management](https://www.browserstack.com/test-management)
+- **Focus:** AI-accelerated test suite management integrated into the BrowserStack real-device testing cloud.
+- **Highlights:** Reusable test step templates, rich-text markdown specifications, release-linked planning, and instant cross-browser execution on 3,000+ real devices.
+- **Best For:** Engineering teams looking to combine manual test orchestration with real-device cloud automation.
 
-### Testmo
-**Type:** Unified test management for manual and automated testing
-Testmo combines manual test management, exploratory testing, and automation result tracking in one platform, with integrations for Jira, GitHub, GitLab, and many more. Pricing starts at $99/month . Positioned for teams wanting a unified view of all testing activities regardless of tooling.
+#### 🔹 [TestRail](https://www.testrail.com/)
+- **Focus:** Dedicated standalone test case and test execution repository with enterprise audit logging.
+- **Highlights:** Milestones, structured test runs, historical results aggregation, multi-project dashboards, and rich REST API support.
+- **Best For:** QA organizations requiring an independent test management platform separated from standard developer issue trackers.
 
-### SpiraTest
-**Type:** Test management with requirements and defect tracking
-SpiraTest (Inflectra) provides test case management, requirements tracking, and defect management in a unified platform. It is often compared alongside PractiTest and TestRail for teams wanting an integrated quality management suite rather than a standalone test repository.
+#### 🔹 [Xray](https://www.getxray.app/)
+- **Focus:** Jira-native test management that treats tests as standard Jira issue types.
+- **Highlights:** Unbroken requirements-to-defect traceability, automated test ingestion (Cucumber, JUnit, TestNG), and auditable release sign-offs.
+- **Best For:** Atlassian-first teams needing strict regulatory and audit traceability directly inside Jira.
+
+#### 🔹 [Zephyr Scale](https://smartbear.com/test-management/zephyr-scale/)
+- **Focus:** Jira-native test management engineered for complex, high-volume testing programs.
+- **Highlights:** Hierarchical folders, parameterized testing, reusable shared test steps, versioning, and over 70 cross-project quality analytics reports.
+- **Best For:** Large enterprises standardizing on Jira who require structured test library governance.
+
+#### 🔹 [SpiraTest](https://www.inflectra.com/spiratest/)
+- **Focus:** Integrated Application Lifecycle Management (ALM) combining requirements, tests, and defects.
+- **Highlights:** Concurrent user seat pricing model, built-in exploratory test capture, and extensive third-party tool integrations.
+- **Best For:** Organizations seeking cost-effective concurrent licensing across QA and product stakeholders.
+
+#### 🔹 [Qase](https://qase.io/)
+- **Focus:** Modern TestOps platform optimized for developer and SDET automation workflows.
+- **Highlights:** First-class REST API, query language filtering (QQL), generous free tier, and instant integrations with Jira, GitHub, GitLab, and Linear.
+- **Best For:** Fast-moving engineering teams prioritizing API-driven test result reporting from automated CI/CD pipelines.
+
+#### 🔹 [PractiTest](https://www.practitest.com/)
+- **Focus:** Holistic QA management offering end-to-end quality process orchestration.
+- **Highlights:** Customizable custom fields, reusable filter views, cross-project dashboards, and bidirectional bug tracker synchronization.
+- **Best For:** Established testing teams needing centralized governance across diverse manual and automated testing initiatives.
+
+#### 🔹 [Testmo](https://www.testmo.com/)
+- **Focus:** High-speed unified test management built for manual, exploratory, and automated test results.
+- **Highlights:** Blazing fast modern user experience, flat team-tier pricing, seamless CLI submission for test results, and robust GitHub/Jira integrations.
+- **Best For:** Modern software teams tired of slow, legacy QA platforms who want a unified dashboard.
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Test Case and Test Suite Management tools. The open-source ecosystem offers several mature options, though with varying levels of modern UX and automation integration.
+Self-hosted, community-driven Test Case and Test Suite Management software offering data sovereignty, compliance control, and zero vendor lock-in.
 
-### Kiwi TCMS
-**Stack:** Python / Django / PostgreSQL | **License:** Open Source (GPL)
-Kiwi TCMS is widely recognized as the leading open-source test management system, IEEE 829 compatible and used by over 2 million downloads [citation:3][citation:11]. It provides test plan and test case creation, progress tracking across multiple teams, and instant insight into testing status for release planning. Plugins for popular testing frameworks collect automation results, and 1-click bug reporting integrates with third-party bug trackers. It is praised for simplicity, control, and local hosting suitability [citation:3][citation:11]. **Best for:** Teams wanting a proven, actively maintained open-source TCMS with a clean interface and no unnecessary complexity.
+### Open-Source Solutions Comparison Table
 
-### TestLink
-**Stack:** PHP / MySQL | **License:** Open Source (GPL)
-TestLink is a long-standing web-based test management system with requirements tracking and integration with bug trackers including Bugzilla, Jira, and Mantis [citation:4]. Features include hierarchical test case organization with traceable history, keyword support, test prioritization, milestone definitions, reporting and metrics, and export to HTML/Word/Excel [citation:4]. It has been used in projects with 20+ engineers and 1,000+ test cases. **Trade-off:** Interface and workflow feel dated, and automation integration is DIY [citation:5][citation:10]. The open-source attribute lowers licensing barriers but does not eliminate total cost of ownership — server maintenance, security updates, backups, and internal support responsibilities remain with the organization [citation:5]. **Best for:** Budget-constrained teams with internal maintenance capability and relatively basic requirements for test case and execution tracking.
+> *Sorted in descending order by GitHub Star counts.*
 
-### TestPlanIt
-**Stack:** TypeScript / PostgreSQL / Docker | **License:** Open Source
-TestPlanIt was released as open source after two years of development, positioned as a modern alternative to expensive proprietary test management tools [citation:1][citation:9]. It supports self-hosting with full data control, customization for team-specific workflows, and code auditing for security and compliance. Deployment involves cloning the repository and running `pnpm install`, with Docker deployment options available [citation:1]. **Best for:** Teams wanting a modern open-source option with active development and self-hosted deployment, accepting a younger ecosystem than Kiwi TCMS or TestLink.
-
-### Squash TM
-**Stack:** Java / PostgreSQL/MySQL | **License:** LGPL-3.0 (open core)
-Squash TM is an open-core test management platform with a strong requirements-to-test model and Jira synchronization options [citation:10]. The core is LGPL-3.0, with Premium and Ultimate licenses adding functionality. It is best suited for teams that manage requirements and tests together and use Jira, with plugins for reporting, automation (Squash AUTOM), and a REST API. **Trade-off:** Some Jira and requirements plugins sit behind Premium or Ultimate licenses, and the platform has more concepts and configuration than simpler tools [citation:10]. **Best for:** Agile teams using Jira that must demonstrate requirement coverage and are prepared to buy a license if the free tier proves limiting.
-
-### QaraTMS
-**Stack:** (Check repository) | **License:** Open Source
-QaraTMS provides test suite and case organization, test plan creation and execution, documentation storage, and basic status tracking [citation:2]. **Limitations:** Lacks advanced analytics such as historical trend dashboards or coverage heat maps, and has no native automation execution support — external tooling is required [citation:2]. **Best for:** Teams wanting lightweight, self-hosted test organization with basic execution tracking and tolerance for limited reporting depth.
-
-### QuAck
-**Stack:** Docker | **License:** Open Source
-QuAck is a self-hosted test management tool focused on basic test case organization and execution tracking, with a web interface for managing test cases, suites, and executions [citation:2]. It allows tests to be grouped dynamically using attributes instead of fixed folder hierarchies, and exposes APIs for integration with external execution tools or issue trackers. **Limitations:** Limited execution metrics, no advanced dashboards or trend analysis, and automation result visualization requires additional customization [citation:2]. **Best for:** Teams preferring lightweight tooling with direct control over test data and willingness to handle all hosting and maintenance.
+| Project | GitHub Stars | Tech Stack | License | Architecture & Integration |
+| :--- | :---: | :--- | :--- | :--- |
+| **[TestLink](https://github.com/TestLinkOpenSourceTRMS/testlink-code)** | [![Stars](https://img.shields.io/github/stars/TestLinkOpenSourceTRMS/testlink-code?style=social&color=white)](https://github.com/TestLinkOpenSourceTRMS/testlink-code/stargazers) | PHP / MySQL / Apache | GPL-2.0 | Longstanding web-based TCMS, requirements management, Bugzilla/Mantis/Jira connectors |
+| **[Kiwi TCMS](https://github.com/kiwitcms/Kiwi)** | [![Stars](https://img.shields.io/github/stars/kiwitcms/Kiwi?style=social&color=white)](https://github.com/kiwitcms/Kiwi/stargazers) | Python / Django / PostgreSQL | GPL-3.0 | Modern IEEE 829-aligned test management, 1-click bug reporting, containerized Docker deployment |
+| **[Nitrate](https://github.com/Nitrate/Nitrate)** | [![Stars](https://img.shields.io/github/stars/Nitrate/Nitrate?style=social&color=white)](https://github.com/Nitrate/Nitrate/stargazers) | Python / Django / MariaDB | GPL-2.0 | Enterprise test plan and run management originally developed by Red Hat |
+| **[QuAck](https://github.com/greatbit/quack)** | [![Stars](https://img.shields.io/github/stars/greatbit/quack?style=social&color=white)](https://github.com/greatbit/quack/stargazers) | Java / Docker / React | Apache-2.0 | Dynamic attribute-based grouping rather than rigid trees; flexible REST API |
+| **[QaraTMS](https://github.com/a13xh7/QaraTMS)** | [![Stars](https://img.shields.io/github/stars/a13xh7/QaraTMS?style=social&color=white)](https://github.com/a13xh7/QaraTMS/stargazers) | PHP / Laravel / MySQL | MIT | Clean test suite and test plan organizer with defect linking and markdown documentation |
+| **[UnitTCMS](https://github.com/kimatata/unittcms)** | [![Stars](https://img.shields.io/github/stars/kimatata/unittcms?style=social&color=white)](https://github.com/kimatata/unittcms/stargazers) | Python / Docker / SQLite/PG | AGPL-3.0 | Modern lightweight test case management engineered for turnkey Docker self-hosting |
+| **[TestPlanIt](https://github.com/TestPlanIt/testplanit)** | [![Stars](https://img.shields.io/github/stars/TestPlanIt/testplanit?style=social&color=white)](https://github.com/TestPlanIt/testplanit/stargazers) | TypeScript / PostgreSQL / Docker | AGPL-3.0 | Next-gen agile-first test management platform built with modern web technologies |
+| **[OpenTMI](https://github.com/OpenTMI/opentmi)** | [![Stars](https://img.shields.io/github/stars/OpenTMI/opentmi?style=social&color=white)](https://github.com/OpenTMI/opentmi/stargazers) | Node.js / MongoDB | MIT | Test Management Infrastructure for CI/CD test results, device logs, and hardware testbeds |
+| **[Tesbo Test Manager](https://github.com/QAbleHQ/Tesbo-Test-Manager)** | [![Stars](https://img.shields.io/github/stars/QAbleHQ/Tesbo-Test-Manager?style=social&color=white)](https://github.com/QAbleHQ/Tesbo-Test-Manager/stargazers) | Node.js / React / Docker | MIT | Open-source test case management designed to organize test cycles and integrate AI workflows |
+| **[ThoroTest](https://github.com/ecamuto/thorotest)** | [![Stars](https://img.shields.io/github/stars/ecamuto/thorotest?style=social&color=white)](https://github.com/ecamuto/thorotest/stargazers) | TypeScript / Docker | MIT | Manual & automated suites, requirements traceability, Jira integration, and BYOK AI test creation |
+| **[Squash TM](https://gitlab.com/HenixDevelopment/open-source/squash)** | *GitLab Core* | Java / PostgreSQL / MySQL | LGPL-3.0 (Open-Core) | Requirements-to-test governance, Squash AUTOM test execution plugins, enterprise Jira sync |
 
 ---
 
-## 📊 Comparison at a Glance
+### Detailed Open-Source Profiles
 
-| Software | License | Stack | Jira Integration | Automation Results | Self-Hosted | Best For |
-|----------|---------|-------|------------------|-------------------|-------------|----------|
-| **TestRail** | Proprietary | Cloud | Plugin | CLI/API | ❌ | Dedicated standalone test management |
-| **Qase** | Proprietary | Cloud | Native | ✅ API | ❌ | Modern automation-first test management |
-| **BrowserStack** | Proprietary | Cloud | 2-way binding | ✅ | ❌ | BrowserStack device cloud users |
-| **Zephyr Scale** | Proprietary | Jira plugin | Native (in Jira) | ✅ | ❌ | Jira-centric large-scale test libraries |
-| **Xray** | Proprietary | Jira plugin | Native (in Jira) | ✅ | ❌ | Requirements traceability in Jira |
-| **Kiwi TCMS** | GPL | Python/Django | 1-click bug | ✅ Plugins | ✅ | Proven OSS test management |
-| **TestLink** | GPL | PHP/MySQL | Direct integration | DIY | ✅ | Budget OSS with basic needs |
-| **TestPlanIt** | Open Source | TypeScript/Docker | (Check) | (Check) | ✅ | Modern OSS alternative |
-| **Squash TM** | LGPL (core) | Java | Plugin-based | ✅ (Squash AUTOM) | ✅ | Requirements + Jira coverage |
-| **QaraTMS** | Open Source | (Check) | External API | ❌ (External) | ✅ | Lightweight basic tracking |
-| **QuAck** | Open Source | Docker | API | External | ✅ | Flexible attribute-based grouping |
+#### 🟢 [TestLink](https://github.com/TestLinkOpenSourceTRMS/testlink-code)
+- **Overview:** The pioneer web-based test management platform with millions of installs over two decades.
+- **Capabilities:** Hierarchical test suites, requirements tracking, execution assignment by build/milestone, and export formats to Word/Excel.
+- **Considerations:** Classic PHP architecture; best for teams seeking proven zero-license-cost utility.
+
+#### 🟢 [Kiwi TCMS](https://github.com/kiwitcms/Kiwi)
+- **Overview:** The most actively maintained, feature-rich open-source test management ecosystem.
+- **Capabilities:** IEEE 829 test plan standards, test case automation hooks, instant one-click bug filing into Bugzilla/GitHub/Jira, and multi-tenant support.
+- **Considerations:** Packaged as official Docker containers for quick deployment and predictable maintenance.
+
+#### 🟢 [Nitrate](https://github.com/Nitrate/Nitrate)
+- **Overview:** Robust test plan, test run, and case tracking system developed and hardened by Red Hat engineering teams.
+- **Capabilities:** High scalability for enterprise release cycles, scriptable batch execution reporting, and deep bug tracker hooks.
+
+#### 🟢 [QuAck](https://github.com/greatbit/quack)
+- **Overview:** Modern, lightweight test case management tool built around dynamic attribute filtering.
+- **Capabilities:** Replaces rigid nested directory trees with dynamic tag/attribute slices; fully accessible via REST APIs.
+
+#### 🟢 [QaraTMS](https://github.com/a13xh7/QaraTMS)
+- **Overview:** Clean and practical test management application built on Laravel.
+- **Capabilities:** Test suites, structured test runs, execution statuses (Pass/Fail/Blocked), and embedded documentation storage.
+
+#### 🟢 [UnitTCMS](https://github.com/kimatata/unittcms)
+- **Overview:** Modern, lightweight test case management software designed specifically for easy self-hosting.
+- **Capabilities:** Fast setup via `docker-compose`, modular test suites, reusable test run cycles, and intuitive UI.
+
+#### 🟢 [TestPlanIt](https://github.com/TestPlanIt/testplanit)
+- **Overview:** Next-generation TypeScript-based open-source test management suite for agile squads.
+- **Capabilities:** Clean modern interface, real-time collaboration, and container-first infrastructure.
+
+#### 🟢 [OpenTMI](https://github.com/OpenTMI/opentmi)
+- **Overview:** Open Source Test Management Infrastructure engineered for automated pipelines and hardware labs.
+- **Capabilities:** Ingests execution telemetry, manages Device-Under-Test (DUT) resources, and provides open analytics APIs.
+
+#### 🟢 [Tesbo Test Manager](https://github.com/QAbleHQ/Tesbo-Test-Manager)
+- **Overview:** Developer-friendly open-source test case management software with an AI-ready architecture.
+- **Capabilities:** Test run cycle orchestration, custom status mappings, and zero-vendor-lockin deployment.
+
+#### 🟢 [ThoroTest](https://github.com/ecamuto/thorotest)
+- **Overview:** Modern self-hosted test management system with native Bring-Your-Own-Key (BYOK) AI test generation.
+- **Capabilities:** Traceability matrix, Jira synchronization, automated test ingestion, and LLM-assisted test case authoring.
+
+#### 🟢 [Squash TM](https://gitlab.com/HenixDevelopment/open-source/squash)
+- **Overview:** Leading European open-core test management suite built on Java enterprise foundations.
+- **Capabilities:** Native requirements coverage, automated test runner orchestration (Squash AUTOM), and enterprise governance.
+
+---
+
+## 📊 Feature Matrix at a Glance
+
+| Tool | Deployment | Target Scale | License Model | Issue Tracker Sync | Automation Ingestion |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **BrowserStack TM** | Cloud SaaS | Any Team | Freemium / Paid | Jira (Two-way) | ✅ Real devices & API |
+| **TestRail** | Cloud / Server | Mid – Enterprise | Commercial | Jira, GitHub, GitLab | ✅ CLI & API |
+| **Xray** | Jira Cloud / DC | Mid – Enterprise | Commercial App | Native Jira Issue Types | ✅ JUnit, Cucumber, CI/CD |
+| **Zephyr Scale** | Jira Cloud / DC | Mid – Enterprise | Commercial App | Native Jira Plugin | ✅ REST API & CI plugins |
+| **SpiraTest** | Cloud / On-Prem | Mid – Enterprise | Concurrent Seat | Native ALM / Jira | ✅ 40+ Automation Frameworks |
+| **Qase** | Cloud SaaS | Startups – Mid | Freemium / Paid | Jira, GitHub, Linear | ✅ Multi-language SDKs & API |
+| **PractiTest** | Cloud SaaS | Enterprise | Commercial | Jira, Redmine, YouTrack | ✅ FireCracker & REST API |
+| **Testmo** | Cloud SaaS | Modern Teams | Flat User Bands | Jira, GitHub, GitLab | ✅ Universal CLI & JUnit XML |
+| **Kiwi TCMS** | Self-Hosted Docker | Startups – Enterprise | Open-Source (GPL) | Bugzilla, Jira, GitHub | ✅ Pytest, JUnit plugins |
+| **TestLink** | Self-Hosted LAMP | Small – Mid | Open-Source (GPL) | Bugzilla, Mantis, Jira | ⚠️ DIY Scripting |
+| **QuAck** | Self-Hosted Docker | Agile Squads | Open-Source (Apache) | Jira, REST API | ✅ REST API |
+| **UnitTCMS** | Self-Hosted Docker | Small – Mid | Open-Source (AGPL) | GitHub / Webhooks | ✅ Docker Native |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Test-Case-Test-Suite-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Test-Case-Test-Suite-Management&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated guide helps you choose the right test management platform or saves your engineering team hours of research, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve visibility for the QA and engineering community!
+- 🍴 **Fork the repo** to share customized variations with your team.
+- 📢 **Share on LinkedIn, X/Twitter, or Reddit** with colleagues and testing communities.
+- ☕ **Buy a coffee & sponsor development**: Visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) to help maintain and keep this directory up-to-date.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Test Case or Test Suite Management tool that should be listed here, please open a pull request with:
+Contributions are warmly welcome! If you know of an exceptional open-source test management tool or an innovative SaaS platform:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem offers strong options: **Kiwi TCMS** is the most mature and widely adopted open-source TCMS with active maintenance and a clean interface, **TestLink** remains viable for budget-constrained teams with internal maintenance capability, and **TestPlanIt** represents a newer modern alternative. Commercial platforms like Qase and BrowserStack remain differentiated by AI-assisted test management, deep automation integration, and seamless cross-browser execution.
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/add-new-tool`.
+3. Add your entry following the established table structure and profile style.
+4. Submit a Pull Request with a short summary of why the tool deserves inclusion.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated collection are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (Public Domain). Individual tools and software products listed retain their respective proprietary or open-source licenses.
 
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<div align="center">
+  <sub>Maintained with ❤️ by the open-source software quality community.</sub>
+</div>
