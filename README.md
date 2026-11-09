@@ -114,9 +114,9 @@ Self-hosted, community-driven Test Case and Test Suite Management software offer
 
 ### Open-Source Solutions Comparison Table
 
-> *Sorted in descending order by GitHub Star counts.*
+> *Sorted in descending order by GitHub Stars_Counts.*
 
-| Project | GitHub Stars | Tech Stack | License | Architecture & Integration |
+| Project | GitHub_Stars | Tech Stack | License | Architecture & Integration |
 | :--- | :---: | :--- | :--- | :--- |
 | **[TestLink](https://github.com/TestLinkOpenSourceTRMS/testlink-code)** | [![Stars](https://img.shields.io/github/stars/TestLinkOpenSourceTRMS/testlink-code?style=social&color=white)](https://github.com/TestLinkOpenSourceTRMS/testlink-code/stargazers) | PHP / MySQL / Apache | GPL-2.0 | Longstanding web-based TCMS, requirements management, Bugzilla/Mantis/Jira connectors |
 | **[Kiwi TCMS](https://github.com/kiwitcms/Kiwi)** | [![Stars](https://img.shields.io/github/stars/kiwitcms/Kiwi?style=social&color=white)](https://github.com/kiwitcms/Kiwi/stargazers) | Python / Django / PostgreSQL | GPL-3.0 | Modern IEEE 829-aligned test management, 1-click bug reporting, containerized Docker deployment |
